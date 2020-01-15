@@ -46,4 +46,15 @@ function draw() {
   vertex(975,400);
   vertex(975,100);
   endShape();
+
+  strokeWeight(5);
+  stroke('pink');
+  fill('darkred');
+  beginShape();
+  vertex(225,115);
+  vertex(300,225);
+  vertex(225,335);
+  vertex(0,225);
+  endShape(CLOSE);
+
 }
