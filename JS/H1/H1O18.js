@@ -13,6 +13,8 @@ function setup() {
 function draw() {
   background(0,0,75,1);
   tekenSter(xPositie,yPositie);
+  xPositie += 5;
+  yPositie += 1;
 }
 
 function tekenSter(x,y) {
